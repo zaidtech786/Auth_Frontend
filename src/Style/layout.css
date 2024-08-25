@@ -1,0 +1,36 @@
+.layout {
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+}
+
+.layout > div {
+  flex: 0 0 50%;
+  height: 100%;
+}
+
+.layout .right__section {
+  background-color: var(--dark-background);
+  background-image:  url(../assets//bckImg.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 65%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.layout .left__section{
+
+  background-color: var(--light-background);
+  overflow: hidden;
+}
+
+
+@media (max-width: 1250px) and (min-width:768px) {
+  .layout .right__section{
+    padding: 1rem;
+  }
+}

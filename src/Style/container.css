@@ -1,0 +1,6 @@
+.container{
+    background: var(--dark-secondry-background);
+    border-radius: 10px;
+    opacity: .95;
+    overflow: auto;
+}

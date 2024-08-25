@@ -1,0 +1,25 @@
+
+.text__field{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: fit-content;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 1px solid var(--primary-border);
+    padding-inline: .8rem;
+    background-color: var(--dark-background);
+}
+
+.text__field input{
+    all: unset;
+    padding: 1rem 0;
+    color: #fff;
+    height: max-content;
+    width: 100%;
+    font-size: small;
+}
+
+.text__field input::placeholder{
+    color: var(--text-placeholder);
+}

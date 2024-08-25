@@ -1,0 +1,155 @@
+.section {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.card1 {
+  z-index: 3;
+  position: absolute;
+  left: 41.97px;
+  top: 10%;
+  transform: rotate(-10.2deg);
+}
+
+.card2 {
+  position: absolute;
+  z-index: 3;
+  left: 400px;
+  top: 38%;
+  transform: rotate(4.17deg);
+  min-width: 23rem;
+}
+
+.card3 {
+  z-index: 3;
+  position: absolute;
+  left: 41.97px;
+  top: 68%;
+  transform: rotate(-5.09deg);
+  min-width: 23rem;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.icon.load {
+  background-image: url("../assets/Vector.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  background-color: var(--weak-blue);
+}
+.icon.ai {
+  background-image: url("../assets/Vector-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  background-color: var(--weak-success);
+}
+.icon.security {
+  background-image: url("../assets/Group.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  background-color: var(--weak-warning);
+}
+
+.line {
+  width: 100dvw;
+  height: 6.5rem;
+  position: absolute;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.yellow.line {
+  background-color: var(--weak-warning);
+  left: -70%;
+  transform: rotate(38deg);
+}
+.blue.line {
+  background-color: var(--weak-blue);
+  right: -70%;
+  transform: rotate(-38deg);
+}
+.green.line {
+  width: 300%;
+  background-color: var(--weak-success);
+  right: -125%;
+  transform: rotate(-55deg);
+}
+
+@media (max-width: 1500px) and (min-width: 1350px) {
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+  .card3,
+  .card2 {
+    min-width: 21rem;
+  }
+  .card2 {
+    left: 350px;
+    top: 40%;
+  }
+  .blue.line {
+    right: -80%;
+  }
+  .green.line {
+    right: -135%;
+  }
+}
+
+@media (max-width: 1349px) and (min-width: 1250px) {
+  .icon {
+    width: 45px;
+    height: 45px;
+  }
+  .card3,
+  .card2 {
+    min-width: 19rem;
+  }
+  .card2 {
+    left: 300px;
+  }
+}
+@media (max-width: 1249px) and (min-width: 768px) {
+  .icon {
+    width: 38px;
+    height: 38px;
+  }
+  .card3,
+  .card2 {
+    min-width: 17rem;
+  }
+  .card2 {
+    left: 200px;
+  }
+}
+
+@media (max-width: 999px) and (min-width: 768px) {
+  .card2 {
+    left: 100px;
+  }
+}
+
+@media (max-width: 1500px) and (min-width: 768px) {
+  .line {
+    height: 5.6rem;
+  }
+}
+@media (max-height: 760px) {
+  .card3,
+  .card2 {
+    min-width: 17rem;
+  }
+  .line {
+    height: 5.6rem;
+  }
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+}

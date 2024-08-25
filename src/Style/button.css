@@ -1,0 +1,20 @@
+button{
+    all: unset;
+    padding: .6rem 4rem;
+    background-color: var(--primary-button);
+    height: fit-content;
+    border-radius: 6px;
+    color: #fff;
+    font-size: small;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: .63;
+}
+
+

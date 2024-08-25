@@ -1,0 +1,38 @@
+:root {
+  /* background */
+  --dark-background: #11141f;
+  --dark-secondry-background: #1E2230;
+  --dark-third-background: #2b3043;
+  --light-background: #ffffff;
+
+  /* button */
+  --primary-button: #9747ff;
+  --secondry-button: #3b82f6;
+
+  /* text */
+  --text-defualt: #0d1b2a;
+  --text-placeholder: #868686;
+  --text-danger: #ef4444;
+  --text-description: #8390A4;
+
+  /* border */
+  --primary-border: #34416d;
+  --line: #363636;
+
+  --weak-success: #cfffe0;
+  --strong-success: #24ac54;
+
+  --weak-warning: #fffdcf;
+  --strong-warning: #e1d800;
+
+  --weak-blue: #ebf3ff;
+  --strong-blue: #418dff;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}

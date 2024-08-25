@@ -1,0 +1,60 @@
+
+.head{
+    display: flex;
+    gap: 10px;
+}
+
+.head .back{
+    height: 36px;
+    width: 36px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--line);
+    cursor: pointer;
+}
+.box .otp{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.box .otp p {
+    font-size: 22px;
+}
+
+.box .otp span{
+    color: var(--text-danger);
+}
+.box .otp .inputs{
+    display: flex;
+
+}
+.box .otp .otp-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.box .otp .otp-box .dash{
+    flex: 1;
+    border-bottom: 2px solid var(--primary-border);
+}
+
+.box .otp .action{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.box .otp .action p{
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.box .otp .action p span{
+    color: var(--primary-button);
+}

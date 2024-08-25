@@ -1,0 +1,91 @@
+
+.App {
+  width: 100dvw;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  background-color: #f0f2f5;
+}
+
+
+
+
+.full__width{
+  width: 100%;
+}
+
+.box {
+  width: 100%;
+  padding: 2rem 3rem;
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: auto;
+}
+
+.box::-webkit-scrollbar {
+  display: none;
+}
+.box .title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.box .title h2 {
+  font-size: 1.8rem;
+}
+
+.box .title p {
+  font-size: 16px;
+  font-weight: 200;
+}
+.box .note{
+  display: flex;
+  justify-content: center;
+}
+
+.box .note .content{
+  background-color: var(--dark-third-background);
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border-radius: 8px;
+  font-size: 14px;
+  flex:1 1 15rem;
+  max-width: 35rem;
+}
+
+.box .or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: var(--text-placeholder);
+}
+.box .or div {
+  flex: 1 0 100px;
+  max-width: 200px;
+  border-bottom: 2px solid var(--line);
+}
+
+.box .note p{
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.box .note span{
+  color: var(--primary-button);
+}
+
+@media (max-width: 1250px) and (min-width:768px)  {
+  .box{
+    padding: 1rem;
+  }
+}
